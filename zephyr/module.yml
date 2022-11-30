@@ -1,0 +1,4 @@
+name: cxd5605_lib
+build:
+  cmake: .
+  kconfig: Kconfig
