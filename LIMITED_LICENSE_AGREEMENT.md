@@ -42,11 +42,18 @@ IN NO EVENT SHALL T-MOBILE BE LIABLE TO YOU FOR ANY LOST PROFITS OR INDIRECT, IN
 You agree to indemnify, defend and hold harmless T-Mobile and its affiliates and their respective officers, agents, licensors, employees, service providers and contractors from and against any and all claims, suits, actions, or proceedings (and all related liability, loss, cost, damage, and expense, including reasonable attorneys’ fees) arising from or related to: (a) Your use of the Source Code that is not reasonable foreseeable; (b) any of Your use of the Source Code that infringes any copyright, trademark, trade secret, trade dress, patent, or other intellectual property right of any person, or defames any person or violates their rights of publicity or privacy; (c) any violation by You of any applicable law or regulation; or (d) any non-compliance by You with the terms of these Source Code Terms.
 
 **14. Miscellaneous**
+
 14.1	Ability to contract. You represent to us that you are lawfully able to enter into contracts (e.g., you are not a minor). If you are entering into these Terms for an entity, such as the company you work for, you represent to us that you have legal authority to bind that entity.
+
 14.2	Independent Contractors; Nonexclusive Relationship.  T-Mobile and You are independent contractors. Neither of us has the authority to bind the other or assume or create any obligation or liability on the other’s behalf.
+
 14.3	No Third Party Beneficiaries. These Source Code Terms are for the sole benefit of the parties hereto and nothing herein express or implied shall give or be construed to give any person or entity other than the parties hereto any legal or equitable rights hereunder.
+
 14.4	Force Majeure. T-Mobile and its affiliates will not be liable for any delay or failure to perform any obligation under these Source Code Terms where the delay or failure results from any cause beyond its reasonable control, including acts of God, labor disputes or other industrial disturbances, electrical or power outages, utilities or other telecommunications failures, earthquake, storms or other elements of nature, blockages, embargoes, riots, acts of government, acts of terrorism, or war.
+
 14.5	Publicity. You will not issue any press release or make any other public communication regarding Your use of the Source Code without T-Mobile’s prior written consent. 
+
 14.6	No Waiver; Severability. T-Mobile’s failure to enforce any provision of these Source Code Terms will not constitute a waiver of such provision. If any portion of these Source Code Terms is held to be invalid or unenforceable, the remaining portions of these Source Code Terms will remain in full force and effect.
+
 14.7	Governing Law. These Source Code Terms will be governed in all respects by, and construed and enforced in accordance with, the laws of the State of Washington without regard to any rules governing conflicts of laws. The parties consent to the exclusive jurisdiction and venue in the state and federal courts located in King County, Washington. 
 
