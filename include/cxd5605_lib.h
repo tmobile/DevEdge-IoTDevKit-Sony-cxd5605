@@ -7,29 +7,13 @@
 #ifndef CXD5605_LIB_H
 #define CXD5605_LIB_H
 
-#include <zephyr.h>
-#include <drivers/flash.h>
-#include <device.h>
-#include <devicetree.h>
 #include <stdio.h>
-#include <drivers/i2c.h>
-#include <drivers/gpio.h>
 #include <string.h>
-
-#if (CONFIG_SPI_NOR - 0) || \
-	DT_NODE_HAS_STATUS(DT_INST(0, jedec_spi_nor), okay)
-#define FLASH_DEVICE DT_LABEL(DT_INST(0, jedec_spi_nor))
-#define FLASH_NAME "JEDEC SPI-NOR"
-#elif (CONFIG_NORDIC_QSPI_NOR - 0) || \
-	DT_NODE_HAS_STATUS(DT_INST(0, nordic_qspi_nor), okay)
-#define FLASH_DEVICE DT_LABEL(DT_INST(0, nordic_qspi_nor))
-#define FLASH_NAME "JEDEC QSPI-NOR"
-#elif DT_NODE_HAS_STATUS(DT_INST(0, st_stm32_qspi_nor), okay)
-#define FLASH_DEVICE DT_LABEL(DT_INST(0, st_stm32_qspi_nor))
-#define FLASH_NAME "JEDEC QSPI-NOR"
-#else
-#error Unsupported flash driver
-#endif
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
+#include <zephyr/devicetree.h>
+#include <zephyr/drivers/i2c.h>
+#include <zephyr/drivers/gpio.h>
 
 typedef enum shim_cmd_enum {
 	CMD_VERSION = 1,
